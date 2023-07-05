@@ -60,7 +60,7 @@ h1 {
   font-size: 50px;
   padding: 20px;
   margin-top: auto;
-  color: rgb(31, 109, 226);
+  color: #0A66C2;
 }
 
 .countContent {
@@ -149,5 +149,5 @@ input {
   border-radius: 50px;
   font-size: 24px;
   font-weight: bold;
-  color: rgb(31, 109, 226);
+  color: #0A66C2;
 }
