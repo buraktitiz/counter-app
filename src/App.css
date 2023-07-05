@@ -1,4 +1,7 @@
 .App {
+  width: 100%;
+  height: calc(100vh-130px);
+  background-color: antiquewhite;
   text-align: center;
 }
 
@@ -32,7 +35,119 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 20%;
+  background-color: rgb(39, 219, 243);
+  border-radius: 70px;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px;
+  margin-top: auto;
+  color: rgb(31, 109, 226);
+}
+
+.countContent {
+  margin-bottom: 30px;
+}
+
+.countValue {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 40px auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 25%;
+  line-height: 10px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
+}
+
+.btnIncrement,
+.btnDecrement {
+  background-color: antiquewhite;
+  color: rgb(39, 219, 243);
+  font-weight: bold;
+}
+
+.btnIncrement:hover {
+  background-color: rgb(12, 214, 72);
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.btnDecrement:hover {
+  background-color: rgb(235, 15, 15);
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.btnIncrementByAmount {
+  background-color: rgb(12, 214, 72);
+  color: antiquewhite;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btnIncrementByAmount:hover {
+  background-color: antiquewhite;
+  color: rgb(12, 214, 72);
+  font-weight: bold;
+}
+
+.btnDecrementByAmount {
+  background-color: rgb(235, 15, 15);
+  color: antiquewhite;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btnDecrementByAmount:hover {
+  background-color: antiquewhite;
+  color: rgb(235, 15, 15);
+  font-weight: bold;
+}
+
+.nums {
+  padding: 10px;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(31, 109, 226);
 }
